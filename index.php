@@ -45,7 +45,7 @@
             <span data-text-preloader="R" class="letters-loading"> R </span>
          </div>
       </div>
-      <button class="tj-cancel-btn">Cancel Preloader</button>
+      <!-- <button class="tj-cancel-btn">Cancel Preloader</button> -->
    </div>
    <!-- end: Preloader -->
 
@@ -73,67 +73,8 @@
                         <div class="mainmenu d-lg-block d-none">
                            <nav id="main-menu">
                               <ul>
-                                 <li class="has-dropdown current-menu-ancestor">
-                                    <a href="index.html">Home</a>
-                                    <ul class="sub-menu">
-                                       <li><a href="index.html">Home One</a></li>
-                                       <li class="current-menu-item">
-                                          <a href="index-2.html">Home Two</a>
-                                       </li>
-                                       <li><a href="index-3.html">Home Three</a></li>
-                                    </ul>
-                                 </li>
-                                 <li><a href="about.html">About</a></li>
-                                 <li class="has-dropdown">
-                                    <a href="javascript:void(0)">Services</a>
-                                    <ul class="sub-menu">
-                                       <li class="has-dropdown">
-                                          <a href="javascript:void(0)">Services</a>
-                                          <ul class="sub-menu">
-                                             <li>
-                                                <a href="service.html">Layout 01</a>
-                                             </li>
-                                             <li>
-                                                <a href="service-2.html">Layout 02</a>
-                                             </li>
-                                             <li>
-                                                <a href="service-3.html">Layout 03</a>
-                                             </li>
-                                          </ul>
-                                       </li>
-                                       <li>
-                                          <a href="service-details.html">Services Details</a>
-                                       </li>
-                                    </ul>
-                                 </li>
-                                 <li class="has-dropdown">
-                                    <a href="javascript:void(0)">Pages</a>
-                                    <ul class="sub-menu">
-                                       <li class="has-dropdown">
-                                          <a href="javascript:void(0)">Projects</a>
-                                          <ul class="sub-menu">
-                                             <li>
-                                                <a href="project.html">Layout 01</a>
-                                             </li>
-                                             <li>
-                                                <a href="project-2.html">Layout 02</a>
-                                             </li>
-                                             <li>
-                                                <a href="project-3.html">Layout 03</a>
-                                             </li>
-                                          </ul>
-                                       </li>
-                                       <li>
-                                          <a href="project-details.html">Project Details</a>
-                                       </li>
-                                       <li>
-                                          <a href="team.html">Team</a>
-                                       </li>
-                                       <li>
-                                          <a href="team-details.html">Team Details</a>
-                                       </li>
-                                    </ul>
-                                 </li>
+                                 <li><a href="index.php">Home</a></li>
+                                 <li><a href="#">About</a></li>
                                  <li class="has-dropdown">
                                     <a href="javascript:void(0)">Blog</a>
                                     <ul class="sub-menu">
@@ -155,7 +96,7 @@
                                           <a href="blog.html">Blog Standard</a>
                                        </li>
                                        <li>
-                                          <a href="blog-details.html">Blog Details</a>
+                                          <a href="#">Blog Details</a>
                                        </li>
                                     </ul>
                                  </li>
@@ -163,19 +104,6 @@
                               </ul>
                            </nav>
                         </div>
-                        <!-- <div class="search-box d-none d-xxl-flex">
-                           <input class="d-xl-block" type="text" placeholder="I’m looking for.." required="">
-                           <div class="header-search d-search">
-                              <button class="search"><i class="fa-solid fa-magnifying-glass"></i></button>
-                           </div>
-                        </div>
-                        <div class="header-search d-xxl-none">
-                           <button class="search"><i class="fa-solid fa-magnifying-glass"></i></button>
-                        </div> -->
-                        <!-- <div class="hamburger_menu d-lg-none">
-                           <a class="canva_expander nav-menu-link menu-button" href="#"><i
-                                 class="fa-regular fa-bars"></i></a>
-                        </div> -->
                      </div>
                      <div class="header-contact">
                         <div class="call-icon">
@@ -299,7 +227,7 @@
                                           <a href="blog.html">Blog Standard</a>
                                        </li>
                                        <li>
-                                          <a href="blog-details.html">Blog Details</a>
+                                          <a href="#">Blog Details</a>
                                        </li>
                                     </ul>
                                  </li>
@@ -354,12 +282,7 @@
                                      <i class="fa-regular fa-circle-a"></i>
                                     Quality that is Guranteed</span>
                                  <h1 class="slider-title">
-                                    Make your 
-                                    <!-- <span>
-                                       <img class="shapes-icon pulse" src="assets/images/shapes/text-shapes.png" alt="Icon">
-                                    </span>  -->
-                                    <br>home
-                                    looks<br> Lively
+                                    Garlic Powder – Pure Flavor, Powerful Health.
                                  </h1>
                                  <div class="slider-button">
                                     <div class="tj-button btn-1">
@@ -395,11 +318,7 @@
                               <div class="slider-text">
                                  <span class="sub-title"><i class="fa-regular fa-circle-a"></i>Quality that is Guranteed</span>
                                  <h1 class="slider-title">
-                                    Make your 
-                                    <!-- <span><img class="shapes-icon pulse"
-                                          src="assets/images/shapes/text-shapes.png" alt="Icon"></span>  -->
-                                          <br>home
-                                    looks<br> Lively
+                                   Garlic Powder – Pure Flavor, Powerful Health.
                                  </h1>
                                  <div class="slider-button">
                                     <div class="tj-button btn-1">
@@ -438,11 +357,7 @@
                                      <i class="fa-regular fa-circle-a"></i>
                                     Quality that is Guranteed</span>
                                  <h1 class="slider-title">
-                                    Make your 
-                                    <!-- <span><img class="shapes-icon pulse"
-                                          src="assets/images/shapes/text-shapes.png" alt="Icon"></span>  -->
-                                          <br>home
-                                    looks<br> Lively
+                                    Garlic Powder – Pure Flavor, Powerful Health.
                                  </h1>
                                  <div class="slider-button">
                                     <div class="tj-button btn-1">
@@ -487,23 +402,21 @@
                   <div class="about-wrapper-two">
                      <div class="about-inner"></div>
                      <div class="about-images">
-                        <img src="assets/images/about/about-1.jpg" alt="Image">
+                        <img src="assets/images/about/about-1.webp" alt="Image">
                      </div>
-                     <div class="about-box">
+                     <!-- <div class="about-box">
                         <i class="tji-landscape"></i>
                         <h4 class="title">Gardening flow<br> management</h4>
-                     </div>
+                     </div> -->
                   </div>
                </div>
                <div class="col-lg-6 order-1 order-lg-2">
                   <div class="about-right-content">
                      <div class="tj-heading-area">
                         <span class="sub-title">// About Us //</span>
-                        <h2 class="sec-title">Grow Your Garden & your Health</h2>
+                        <h2 class="sec-title">Welcome to Aamstar TradeFame</h2>
                         <div class="desc">
-                           <p>Nulla commodo dolor massa, vel pellentesque nulla congue quis. Fusce ut convallis diam.
-                              Nam id tortor et nunc tempor faucibus. Sed eu leo egestas, imperdiet felis sed, ligula.
-                           </p>
+                           <p>At Aamstar TradeFame, we are reputable and trusted merchant exporters. We thoroughly verify product specifications, ensure traceability, and source the best products at the best prices within the shortest timeframe.</p>
                         </div>
                      </div>
                      <div class="feature-item-one">
@@ -511,24 +424,24 @@
                            <div class="feature-content-one">
                               <div class="feature-header">
                                  <i class="tji-check-icons"></i>
-                                 <h5 class="title">Urban Maintenance</h5>
+                                 <h5 class="title">Trust & Commitment</h5>
                               </div>
                               <div class="desc">
-                                 <p>Lorem ipsum dolor sit ame sedme consectetur nod.</p>
+                                 <p>We build business on trust, faith, commitment, and passion.</p>
                               </div>
                            </div>
                            <div class="feature-content-one">
                               <div class="feature-header">
                                  <i class="tji-check-icons"></i>
-                                 <h5 class="title">Event Maintenance</h5>
+                                 <h5 class="title">Quality & Delivery</h5>
                               </div>
                               <div class="desc">
-                                 <p>Lorem ipsum dolor sit ame sedme consectetur nod.</p>
+                                 <p>We ensure strict quality checks, vendor scrutiny, best pricing, and on-time delivery.</p>
                               </div>
                            </div>
                            <div class="feature-button">
                               <div class="tj-button btn-2">
-                                 <a class="tj-secondary-btn" href="about.html">
+                                 <a class="tj-secondary-btn" href="#">
                                     <span><i class="fa-solid fa-circle-arrow-right"></i> Discover More</span>
                                     <span><i class="fa-solid fa-circle-arrow-right"></i> Discover More</span>
                                  </a>
@@ -536,7 +449,7 @@
                            </div>
                         </div>
                         <div class="feature-wrapper-one">
-                           <img src="assets/images/about/bottom-right-img.jpg" alt="Images">
+                           <img src="assets/images/about/bottom-right-img.webp" alt="Images">
                         </div>
                      </div>
                   </div>
@@ -555,8 +468,8 @@
             <div class="row">
                <div class="col-lg-6 col-md-6">
                   <div class="tj-heading-area">
-                     <span class="sub-title">// Popular Services //</span>
-                     <h2 class="sec-title">We Provide Best Gardening</h2>
+                     <span class="sub-title">// We provide best services //</span>
+                     <h2 class="sec-title">Why Choose Us?</h2>
                   </div>
                </div>
                <div class="col-lg-6 col-md-7"></div>
@@ -564,83 +477,78 @@
             <div class="row masonry-gallery">
                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 services-grid-item grid-item">
                   <div class="tj-service-item text-center">
-                     <span class="number">1</span>
-                     <h4 class="title"><a href="service-details.html">Events</a></h4>
+                     <h4 class="title"><a href="service-details.html">Quality Assurance</a></h4>
                      <div class="desc">
-                        <p>Nulla commodo dolor massa pelle illa dongue quis fusce seadeu leo egesta imperdet</p>
+                        <p>We carefully examine the appearance, texture, taste, flavor, and aroma of every product to ensure only the best quality is delivered.</p>
                      </div>
-                     <div class="service-icon">
-                        <i class="tji-vegetation"></i>
-                     </div>
+                     <!-- <div class="service-icon">
+                        <i class="tji-drainage"></i>
+                     </div> -->
                      <div class="service_shapes">
-                        <img src="assets/images/shapes/price-3.png" alt="Shapes">
+                        <img src="assets/images/shapes/price-3.webp" alt="Shapes">
                      </div>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 services-grid-item grid-item">
                   <div class="tj-service-item text-center">
-                     <span class="number">2</span>
-                     <h4 class="title"><a href="service-details.html">Landscaping</a></h4>
+                     <h4 class="title"><a href="service-details.html">Product Safety</a></h4>
                      <div class="desc">
-                        <p>Nulla commodo dolor massa pelle illa dongue quis fusce seadeu leo egesta imperdet</p>
+                        <p>With our dedicated storage facilities, we maintain strict safety standards to protect products from contamination and hazards.</p>
                      </div>
-                     <div class="service-icon">
+                     <!-- <div class="service-icon">
                         <i class="tji-lawn-mower-1"></i>
-                     </div>
+                     </div> -->
                      <div class="service_shapes">
-                        <img src="assets/images/shapes/price-3.png" alt="Shapes">
+                        <img src="assets/images/shapes/price-3.webp" alt="Shapes">
                      </div>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 services-grid-item grid-item">
                   <div class="tj-service-item text-center">
-                     <span class="number">3</span>
-                     <h4 class="title"><a href="service-details.html">Urban</a></h4>
+                     <h4 class="title"><a href="service-details.html">Competitive Pricing</a></h4>
                      <div class="desc">
-                        <p>Nulla commodo dolor massa pelle illa dongue quis fusce seadeu leo egesta imperdet</p>
+                        <p>Through strong supplier networks and skilled negotiations, we offer competitive prices without compromising product quality.</p>
                      </div>
-                     <div class="service-icon">
+                     <!-- <div class="service-icon">
                         <i class="tji-shovel"></i>
-                     </div>
+                     </div> -->
                      <div class="service_shapes">
-                        <img src="assets/images/shapes/price-3.png" alt="Shapes">
+                        <img src="assets/images/shapes/price-3.webp" alt="Shapes">
                      </div>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 services-grid-item grid-item">
                   <div class="tj-service-item text-center">
-                     <span class="number">5</span>
-                     <h4 class="title"><a href="service-details.html">Fertilizinga</a></h4>
+                     <h4 class="title"><a href="service-details.html">Customized Packaging</a></h4>
                      <div class="desc">
-                        <p>Nulla commodo dolor massa pelle illa dongue quis fusce seadeu leo egesta imperdet</p>
+                        <p>We provide tailored packaging options that meet client requirements and improve product appeal in the marketplace.</p>
                      </div>
-                     <div class="service-icon">
+                     <!-- <div class="service-icon">
                         <i class="tji-trimming"></i>
-                     </div>
+                     </div> -->
                      <div class="service_shapes">
-                        <img src="assets/images/shapes/price-3.png" alt="Shapes">
+                        <img src="assets/images/shapes/price-3.webp" alt="Shapes">
                      </div>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 services-grid-item grid-item">
                   <div class="tj-service-item text-center">
-                     <span class="number">4</span>
-                     <h4 class="title"><a href="service-details.html">Maintenance</a></h4>
+                     <h4 class="title"><a href="service-details.html">Timely Delivery</a></h4>
                      <div class="desc">
-                        <p>Nulla commodo dolor massa pelle illa dongue quis fusce seadeu leo egesta imperdet</p>
+                        <p>Our efficient sourcing and logistics ensure that every order is delivered promptly within the committed timeframe.</p>
                      </div>
-                     <div class="service-icon">
-                        <i class="tji-planting"></i>
-                     </div>
+                     <!-- <div class="service-icon">
+                        <i class="tji-mixer-truck-1"></i>
+                     </div> -->
                      <div class="service_shapes">
-                        <img src="assets/images/shapes/price-3.png" alt="Shapes">
+                        <img src="assets/images/shapes/price-3.webp" alt="Shapes">
                      </div>
                   </div>
                </div>
             </div>
          </div>
          <div class="service-images">
-            <img src="assets/images/service/services-1.jpg" alt="Image">
+            <img src="assets/images/service/services-1.webp" alt="Image">
          </div>
       </section>
       <!-- end: Service Area -->
@@ -725,45 +633,6 @@
       </section>
       <!-- end: Faq Area -->
 
-      <!-- start: Brand Area -->
-      <section class="tj-brand-section">
-         <div class="container">
-            <div class="row">
-               <div class="col-12">
-                  <div class="swiper tj-brand-slider">
-                     <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                           <div class="brand-item">
-                              <a href="#"><img src="assets/images/partner/partner-1.svg" alt="Images" /></a>
-                           </div>
-                        </div>
-                        <div class="swiper-slide">
-                           <div class="brand-item">
-                              <a href="#"><img src="assets/images/partner/partner-2.svg" alt="Images" /></a>
-                           </div>
-                        </div>
-                        <div class="swiper-slide">
-                           <div class="brand-item">
-                              <a href="#"><img src="assets/images/partner/partner-3.svg" alt="Images" /></a>
-                           </div>
-                        </div>
-                        <div class="swiper-slide">
-                           <div class="brand-item">
-                              <a href="#"><img src="assets/images/partner/partner-4.svg" alt="Images" /></a>
-                           </div>
-                        </div>
-                        <div class="swiper-slide">
-                           <div class="brand-item">
-                              <a href="#"><img src="assets/images/partner/partner-5.svg" alt="Images" /></a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!-- end: Brand Area -->
 
       <!-- start: Project Area -->
       <section class="tj-project-section-two">
@@ -771,8 +640,8 @@
             <div class="row">
                <div class="col-12">
                   <div class="tj-heading-area text-center">
-                     <span class="sub-title">// Successful Projects //</span>
-                     <h2 class="sec-title">Check Successful Project</h2>
+                     <span class="sub-title">// Products //</span>
+                     <h2 class="sec-title">Check our products</h2>
                   </div>
                </div>
             </div>
@@ -780,66 +649,27 @@
          <div class="swiper tj-project-slider2">
             <div class="swiper-wrapper">
                <div class="swiper-slide">
-                  <div class="project-wrapper" data-bg-image="assets/images/project/project-8.jpg">
+                  <div class="project-wrapper" data-bg-image="assets/images/project/pr01.webp" style="background-image: url('assets/images/project/pr01.webp);">
                      <div class="project-style-2">
-                        <div class="project-icon">
-                           <a href="project-details.html"><i class="fa-solid fa-plus"></i></a>
-                        </div>
+                        <!-- <div class="project-icon">
+                           <a href="#"><i class="fa-solid fa-plus"></i></a>
+                        </div> -->
                         <div class="project-text">
-                           <span class="sub-title">Gardening</span>
-                           <h4 class="title"><a href="project-details.html">Lawn Care & Mowing</a></h4>
+                           <!-- <span class="sub-title">Gardening</span> -->
+                           <h4 class="title"><a href="#">Garlic Powder</a></h4>
                         </div>
                      </div>
                   </div>
                </div>
                <div class="swiper-slide">
-                  <div class="project-wrapper" data-bg-image="assets/images/project/project-slider-1.png">
+                  <div class="project-wrapper" data-bg-image="assets/images/project/pr02.webp" style="background-image: url('assets/images/project/pr02.webp);" >
                      <div class="project-style-2">
-                        <div class="project-icon">
+                        <!-- <div class="project-icon">
                            <a href="project-details.html"><i class="fa-solid fa-plus"></i></a>
-                        </div>
+                        </div> -->
                         <div class="project-text">
-                           <span class="sub-title">Gardening</span>
-                           <h4 class="title"><a href="project-details.html">Masterpiece Garden</a></h4>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="swiper-slide">
-                  <div class="project-wrapper" data-bg-image="assets/images/project/project-slider-2.png">
-                     <div class="project-style-2">
-                        <div class="project-icon">
-                           <a href="project-details.html"><i class="fa-solid fa-plus"></i></a>
-                        </div>
-                        <div class="project-text">
-                           <span class="sub-title">Gardening</span>
-                           <h4 class="title"><a href="project-details.html">Maintaince Urban Project</a></h4>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="swiper-slide">
-                  <div class="project-wrapper" data-bg-image="assets/images/project/project-slider-3.png">
-                     <div class="project-style-2">
-                        <div class="project-icon">
-                           <a href="project-details.html"><i class="fa-solid fa-plus"></i></a>
-                        </div>
-                        <div class="project-text">
-                           <span class="sub-title">Gardening</span>
-                           <h4 class="title"><a href="project-details.html">Garden Care Enchan</a></h4>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="swiper-slide">
-                  <div class="project-wrapper" data-bg-image="assets/images/project/project-slider-4.png">
-                     <div class="project-style-2">
-                        <div class="project-icon">
-                           <a href="project-details.html"><i class="fa-solid fa-plus"></i></a>
-                        </div>
-                        <div class="project-text">
-                           <span class="sub-title">Gardening</span>
-                           <h4 class="title"><a href="project-details.html">Urban Jungle Paradise</a></h4>
+                           <!-- <span class="sub-title">Gardening</span> -->
+                           <h4 class="title"><a href="#">Chilli Powder</a></h4>
                         </div>
                      </div>
                   </div>
@@ -857,139 +687,106 @@
       </section>
       <!-- end: Project Area -->
 
-      <!-- start: Counter Area -->
-      <section class="tj-counter-section-two">
-         <div class="container-fluid">
-            <div class="row">
-               <div class="col-12">
-                  <div class="counter-wrapper">
-                     <div class="counter-box">
-                        <div class="counter-item">
-                           <div class="counter-icon">
-                              <i class="tji-trophy"></i>
-                           </div>
-                           <div class="counter-text">
-                              <div class="tj-count"><span class="odometer" data-count="534">0</span>+</div>
-                              <div class="desc">
-                                 <p>Our Total Awards Winning</p>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="counter-item">
-                           <div class="counter-icon">
-                              <i class="tji-plant"></i>
-                           </div>
-                           <div class="counter-text">
-                              <div class="tj-count"><span class="odometer" data-count="832">0</span></div>
-                              <div class="desc">
-                                 <p>Our Total Project Completed</p>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="counter-inner" data-bg-image="assets/images/shapes/counter-1.png">
-                        <div class="counter-bg">
-                           <img src="assets/images/project/counter-1.png" alt="Images">
-                        </div>
-                     </div>
-                     <div class="counter-box">
-                        <div class="counter-item">
-                           <div class="counter-icon">
-                              <i class="tji-farmer"></i>
-                           </div>
-                           <div class="counter-text">
-                              <div class="tj-count"><span class="odometer" data-count="965">0</span>+</div>
-                              <div class="desc">
-                                 <p>Our Expert Team Member</p>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="counter-item">
-                           <div class="counter-icon">
-                              <i class="tji-reputation"></i>
-                           </div>
-                           <div class="counter-text">
-                              <div class="tj-count"><span class="odometer" data-count="23">0</span>M</div>
-                              <div class="desc">
-                                 <p>Total Satisfactions Rate</p>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!-- end: Counter Area -->
 
-      <!-- start: Process Area -->
-      <section class="tj-process-section-two" data-bg-image="assets/images/shapes/process-bg.png">
+      
+
+
+      <!-- <section class="tj-team-section">
          <div class="container">
             <div class="row">
                <div class="col-12">
                   <div class="tj-heading-area text-center">
-                     <span class="sub-title">// Working Process //</span>
-                     <h2 class="sec-title">We work's for your Services</h2>
+                     <span class="sub-title">// Our Experts //</span>
+                     <h2 class="sec-title">Meet Professional Gardener</h2>
                   </div>
                </div>
             </div>
-            <div class="row">
-               <div class="col-12">
-                  <div class="process-style-2">
-                     <div class="process-item-two">
-                        <div class="process-inner">
-                           <div class="process-icon">
-                              <i class="tji-garden"></i>
-                           </div>
-                           <div class="process-content">
-                              <h4 class="title">Garden Design</h4>
-                              <div class="desc">
-                                 <p>Nulla commod dolor masa tesque conguequis fusce siutcon diam tempor ...</p>
-                              </div>
-                              <span class="number">01</span>
-                           </div>
+            <div class="row justify-content-center">
+               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                  <div class="team-item">
+                     <div class="team-box">
+                        <div class="team-images">
+                           <img src="assets/images/team/team-1.jpg" alt="Images">
+                        </div>
+                        <div class="team-social">
+                           <ul>
+                              <li><i class="fa-sharp fa-solid fa-share-nodes"></i>
+                                 <ul>
+                                    <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-square-x-twitter"></i></a></li>
+                                 </ul>
+                              </li>
+                           </ul>
                         </div>
                      </div>
-                     <div class="process-item-two">
-                        <div class="process-inner">
-                           <div class="process-icon">
-                              <i class="tji-field"></i>
-                           </div>
-                           <div class="process-content">
-                              <h4 class="title">Discuss plan</h4>
-                              <div class="desc">
-                                 <p>Nulla commod dolor masa tesque conguequis fusce siutcon diam tempor ...</p>
-                              </div>
-                              <span class="number">02</span>
-                           </div>
+                     <div class="team-auother">
+                        <h4 class="auother-name"><a href="team-details.html">Liman Singha</a></h4>
+                        <span class="sub-title">Creative Director</span>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                  <div class="team-item">
+                     <div class="team-box">
+                        <div class="team-images">
+                           <img src="assets/images/team/team-2.jpg" alt="Images">
+                        </div>
+                        <div class="team-social">
+                           <ul>
+                              <li><i class="fa-sharp fa-solid fa-share-nodes"></i>
+                                 <ul>
+                                    <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-square-x-twitter"></i></a></li>
+                                 </ul>
+                              </li>
+                           </ul>
                         </div>
                      </div>
-                     <div class="process-item-two">
-                        <div class="process-inner">
-                           <div class="process-icon">
-                              <i class="tji-planting"></i>
-                           </div>
-                           <div class="process-content">
-                              <h4 class="title">Planting</h4>
-                              <div class="desc">
-                                 <p>Nulla commod dolor masa tesque conguequis fusce siutcon diam tempor ...</p>
-                              </div>
-                              <span class="number">03</span>
-                           </div>
+                     <div class="team-auother">
+                        <h4 class="auother-name"><a href="team-details.html">Tina D. Langua</a></h4>
+                        <span class="sub-title">Expert Farmer</span>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                  <div class="team-item">
+                     <div class="team-box">
+                        <div class="team-images">
+                           <img src="assets/images/team/team-3.jpg" alt="Images">
+                        </div>
+                        <div class="team-social">
+                           <ul>
+                              <li><i class="fa-sharp fa-solid fa-share-nodes"></i>
+                                 <ul>
+                                    <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-square-x-twitter"></i></a></li>
+                                 </ul>
+                              </li>
+                           </ul>
                         </div>
                      </div>
-                     <div class="process-item-two">
-                        <div class="process-inner">
-                           <div class="process-icon">
-                              <i class="tji-nature"></i>
-                           </div>
-                           <div class="process-content">
-                              <h4 class="title">Finish the Job</h4>
-                              <div class="desc">
-                                 <p>Nulla commod dolor masa tesque conguequis fusce siutcon diam tempor ...</p>
-                              </div>
-                              <span class="number">04</span>
+                     <div class="team-auother">
+                        <h4 class="auother-name"><a href="team-details.html">Kelly M. Jones</a></h4>
+                        <span class="sub-title">Landscape Designer</span>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                  <div class="join-team" data-bg-image="assets/images/team/join-team.jpg">
+                     <div class="team-content">
+                        <h4 class="title">You Can Make Easily Join With Us</h4>
+                        <div class="team-button">
+                           <div class="tj-button">
+                              <a class="tj-primary-btn" href="team-details.html">
+                                 <span><i class="fa-solid fa-circle-arrow-right"></i> Join With Us Now</span>
+                                 <span><i class="fa-solid fa-circle-arrow-right"></i> Join With Us Now</span>
+                              </a>
                            </div>
                         </div>
                      </div>
@@ -997,8 +794,13 @@
                </div>
             </div>
          </div>
-      </section>
-      <!-- end: Process Area -->
+         <div class="sec-shapes">
+            <img src="assets/images/shapes/team-shapes.png" alt="Shapes">
+         </div>
+      </section> -->
+
+
+
 
       <!-- start: Team Area -->
       <section class="tj-team-section-two">
@@ -1006,8 +808,8 @@
             <div class="row justify-content-center">
                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                   <div class="tj-heading-area">
-                     <span class="sub-title">// Our Experts //</span>
-                     <h2 class="sec-title">Creative Experts Team</h2>
+                     <span class="sub-title">// Team //</span>
+                     <h2 class="sec-title">Our Team of Experts</h2>
                      <div class="team-button d-none d-sm-block">
                         <div class="tj-button btn-1">
                            <a class="tj-primary-btn" href="team-details.html">
@@ -1019,83 +821,49 @@
                   </div>
                </div>
                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                  <div class="team-style-2">
-                     <div class="team-images">
-                        <img src="assets/images/team/team-1.jpg" alt="Image">
+                  <div class="team-item">
+                     <div class="team-box">
+                        <div class="team-images">
+                           <img src="assets/images/team/team-1.webp" alt="Images">
+                        </div>
                      </div>
-                     <div class="team-content">
-                        <div class="team-share">
-                           <ul class="team-social">
-                              <li>
-                                 <i class="fa-solid fa-share-nodes"></i>
-                                 <ul class="team-social-icon">
-                                    <li><a href="#"><i class="fa-solid fa-globe"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-square-twitter"></i></a></li>
-                                 </ul>
-                              </li>
-                           </ul>
-                        </div>
-                        <div class="team-text">
-                           <span class="sub-title">Creative Director</span>
-                           <h4 class="title"><a href="team-details.html">Liman Singha</a></h4>
-                        </div>
+                     <div class="team-auother">
+                        <h5 class="auother-name"><a href="#">Team member 01</a></h5>
+                        <span class="sub-title">Position</span>
                      </div>
                   </div>
                </div>
+
                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                  <div class="team-style-2">
-                     <div class="team-images">
-                        <img src="assets/images/team/team-2.jpg" alt="Image">
+                  <div class="team-item">
+                     <div class="team-box">
+                        <div class="team-images">
+                           <img src="assets/images/team/team-2.webp" alt="Images">
+                        </div>
                      </div>
-                     <div class="team-content">
-                        <div class="team-share">
-                           <ul class="team-social">
-                              <li>
-                                 <i class="fa-solid fa-share-nodes"></i>
-                                 <ul class="team-social-icon">
-                                    <li><a href="#"><i class="fa-solid fa-globe"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-square-twitter"></i></a></li>
-                                 </ul>
-                              </li>
-                           </ul>
-                        </div>
-                        <div class="team-text">
-                           <span class="sub-title">Expert Farmer</span>
-                           <h4 class="title"><a href="team-details.html">Tina D. Langua</a></h4>
-                        </div>
+                     <div class="team-auother">
+                        <h5 class="auother-name"><a href="#">Team member 02</a></h5>
+                        <span class="sub-title">Position</span>
                      </div>
                   </div>
                </div>
+
+
                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                  <div class="team-style-2">
-                     <div class="team-images">
-                        <img src="assets/images/team/team-3.jpg" alt="Image">
+                  <div class="team-item">
+                     <div class="team-box">
+                        <div class="team-images">
+                           <img src="assets/images/team/team-3.webp" alt="Images">
+                        </div>
                      </div>
-                     <div class="team-content">
-                        <div class="team-share">
-                           <ul class="team-social">
-                              <li>
-                                 <i class="fa-solid fa-share-nodes"></i>
-                                 <ul class="team-social-icon">
-                                    <li><a href="#"><i class="fa-solid fa-globe"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-square-twitter"></i></a></li>
-                                 </ul>
-                              </li>
-                           </ul>
-                        </div>
-                        <div class="team-text">
-                           <span class="sub-title">Landscape Designer</span>
-                           <h4 class="title"><a href="team-details.html">Kelly M. Jones</a></h4>
-                        </div>
+                     <div class="team-auother">
+                        <h5 class="auother-name"><a href="#">Team member 03</a></h5>
+                        <span class="sub-title">Position</span>
                      </div>
                   </div>
                </div>
+
+
                <div class="team-button d-sm-none">
                   <div class="tj-button btn-1">
                      <a class="tj-primary-btn" href="team-details.html">
@@ -1109,93 +877,14 @@
       </section>
       <!-- end: Team Area -->
 
-      <!-- start: Contact Area -->
-      <section class="tj-contact-section">
-         <div class="container">
-            <div class="row">
-               <div class="col-12">
-                  <div class="tj-heading-area text-center">
-                     <span class="sub-title">// Free Book Now //</span>
-                     <h2 class="sec-title">Can Easily Book an Appointment</h2>
-                  </div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-12">
-                  <div class="contact-wrapper">
-                     <div class="form-box">
-                        <form id="contact-form">
-                           <div class="form-one">
-                              <div class="form-input">
-                                 <input type="text" name="conName" id="conName" placeholder="Your Name" required="">
-                              </div>
-                              <div class="form-input">
-                                 <input type="email" name="conEmail" id="conEmail" placeholder="Email Address"
-                                    required="">
-                              </div>
-                              <div class="form-input">
-                                 <input type="tel" name="conPhone" id="conPhone" placeholder="Phone No." required="">
-                              </div>
-                              <div class="form-input">
-                                 <div class="tj-nice-select-box">
-                                    <div class="tj-select">
-                                       <select class="nice-select" name="conService">
-                                          <option value="2">Passengers</option>
-                                          <option value="2">Home Renovation</option>
-                                          <option value="2">Constructions</option>
-                                          <option value="2">Architecture Design</option>
-                                          <option value="2">Residential Space</option>
-                                       </select>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="form-input style-2">
-                              <textarea name="conMessage" id="message" placeholder="Write Message..."></textarea>
-                           </div>
-                           <div class="contact-button tj-button btn-1">
-                              <button class="tj-primary-btn">
-                                 <span><i class="fa-solid fa-circle-arrow-right"></i> Send a Message</span>
-                                 <span><i class="fa-solid fa-circle-arrow-right"></i> Send a Message</span>
-                              </button>
-                           </div>
-                        </form>
-                     </div>
-                     <div class="contact_box">
-                        <div class="contact-style-2">
-                           <span class="sub-title">Call anytime</span>
-                           <a class="link" href="tel:+98450009630">+ 98 45 (000) - 9630</a>
-                        </div>
-                        <div class="contact-style-2">
-                           <span class="sub-title">Send email</span>
-                           <a class="link" href="mailto:info@company.com">info@company.com</a>
-                        </div>
-                        <div class="contact-style-2">
-                           <span class="sub-title">Visit Office</span>
-                           <div class="text">380 St Kilda Golden Road Melbourne, Australia</div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="contact-shapes">
-            <img src="assets/images/shapes/contact-leaf.png" alt="Shapes">
-         </div>
-         <div class="contact-bg">
-            <img src="assets/images/project/contact-1.jpg" alt="Image">
-         </div>
-      </section>
-      <!-- end: Contact Area -->
-
       <!-- start: Testimonial Area -->
-      <section class="tj-testimonial-section-two" data-bg-image="assets/images/shapes/testimonial-bg.png">
+      <section class="tj-testimonial-section-two">
          <div class="container">
             <div class="row">
                <div class="col-12">
                   <div class="tj-heading-area text-center">
                      <span class="sub-title">// Our Testimonial //</span>
-                     <h2 class="sec-title">What They're Talking About Us</h2>
+                     <h2 class="sec-title">What People Say About Us</h2>
                   </div>
                </div>
             </div>
@@ -1204,10 +893,11 @@
                   <div class="tj-swiper-wrapper">
                      <div class="swiper tj-testimonial-slider2">
                         <div class="swiper-wrapper">
+
                            <div class="swiper-slide testimonial-item-two">
                               <div class="testimonial-rating">
                                  <div class="star-ratings">
-                                    <div class="fill-ratings" style="width: 73%">
+                                    <div class="fill-ratings">
                                        <span>★★★★★</span>
                                     </div>
                                     <div class="empty-ratings">
@@ -1219,14 +909,10 @@
                                  </div>
                               </div>
                               <div class="team-auother">
-                                 <div class="auother-images">
-                                    <img src="assets/images/testimonial/test-4.png" alt="Images">
-                                 </div>
                                  <div class="auother-text">
-                                    <h4 class="title">Manisha Singha</h4>
+                                    <h5 class="title">Manisha Singha</h5>
                                     <div class="desc">
-                                       <p>Quality of Services agreements may prioritize certain types of traffic (video
-                                          streaming, gaming) to ensure a better...</p>
+                                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
                                     </div>
                                     <div class="testimonial-quote">
                                        <img src="assets/images/shapes/test-quote.svg" alt="Icon">
@@ -1234,17 +920,12 @@
                                  </div>
                               </div>
                               <span class="sub-title">CEO & Co-Founder</span>
-                              <div class="test-shapes">
-                                 <img src="assets/images/shapes/test-1.png" alt="Shapes">
-                              </div>
-                              <div class="test-shapes2">
-                                 <img src="assets/images/shapes/test-2.png" alt="Shapes">
-                              </div>
                            </div>
+
                            <div class="swiper-slide testimonial-item-two">
                               <div class="testimonial-rating">
                                  <div class="star-ratings">
-                                    <div class="fill-ratings" style="width: 73%">
+                                    <div class="fill-ratings">
                                        <span>★★★★★</span>
                                     </div>
                                     <div class="empty-ratings">
@@ -1256,14 +937,10 @@
                                  </div>
                               </div>
                               <div class="team-auother">
-                                 <div class="auother-images">
-                                    <img src="assets/images/testimonial/test-5.png" alt="Images">
-                                 </div>
                                  <div class="auother-text">
-                                    <h4 class="title">Manisha Singha</h4>
+                                    <h5 class="title">Manisha Singha</h5>
                                     <div class="desc">
-                                       <p>Quality of Services agreements may prioritize certain types of traffic (video
-                                          streaming, gaming) to ensure a better...</p>
+                                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
                                     </div>
                                     <div class="testimonial-quote">
                                        <img src="assets/images/shapes/test-quote.svg" alt="Icon">
@@ -1271,17 +948,12 @@
                                  </div>
                               </div>
                               <span class="sub-title">CEO & Co-Founder</span>
-                              <div class="test-shapes">
-                                 <img src="assets/images/shapes/test-1.png" alt="Shapes">
-                              </div>
-                              <div class="test-shapes2">
-                                 <img src="assets/images/shapes/test-2.png" alt="Shapes">
-                              </div>
                            </div>
+
                            <div class="swiper-slide testimonial-item-two">
                               <div class="testimonial-rating">
                                  <div class="star-ratings">
-                                    <div class="fill-ratings" style="width: 73%">
+                                    <div class="fill-ratings">
                                        <span>★★★★★</span>
                                     </div>
                                     <div class="empty-ratings">
@@ -1293,14 +965,10 @@
                                  </div>
                               </div>
                               <div class="team-auother">
-                                 <div class="auother-images">
-                                    <img src="assets/images/testimonial/test-4.png" alt="Images">
-                                 </div>
                                  <div class="auother-text">
-                                    <h4 class="title">Manisha Singha</h4>
+                                    <h5 class="title">Manisha Singha</h5>
                                     <div class="desc">
-                                       <p>Quality of Services agreements may prioritize certain types of traffic (video
-                                          streaming, gaming) to ensure a better...</p>
+                                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
                                     </div>
                                     <div class="testimonial-quote">
                                        <img src="assets/images/shapes/test-quote.svg" alt="Icon">
@@ -1308,17 +976,12 @@
                                  </div>
                               </div>
                               <span class="sub-title">CEO & Co-Founder</span>
-                              <div class="test-shapes">
-                                 <img src="assets/images/shapes/test-1.png" alt="Shapes">
-                              </div>
-                              <div class="test-shapes2">
-                                 <img src="assets/images/shapes/test-2.png" alt="Shapes">
-                              </div>
                            </div>
+
                            <div class="swiper-slide testimonial-item-two">
                               <div class="testimonial-rating">
                                  <div class="star-ratings">
-                                    <div class="fill-ratings" style="width: 73%">
+                                    <div class="fill-ratings">
                                        <span>★★★★★</span>
                                     </div>
                                     <div class="empty-ratings">
@@ -1330,14 +993,10 @@
                                  </div>
                               </div>
                               <div class="team-auother">
-                                 <div class="auother-images">
-                                    <img src="assets/images/testimonial/test-5.png" alt="Images">
-                                 </div>
                                  <div class="auother-text">
                                     <h4 class="title">Manisha Singha</h4>
                                     <div class="desc">
-                                       <p>Quality of Services agreements may prioritize certain types of traffic (video
-                                          streaming, gaming) to ensure a better...</p>
+                                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
                                     </div>
                                     <div class="testimonial-quote">
                                        <img src="assets/images/shapes/test-quote.svg" alt="Icon">
@@ -1345,13 +1004,9 @@
                                  </div>
                               </div>
                               <span class="sub-title">CEO & Co-Founder</span>
-                              <div class="test-shapes">
-                                 <img src="assets/images/shapes/test-1.png" alt="Shapes">
-                              </div>
-                              <div class="test-shapes2">
-                                 <img src="assets/images/shapes/test-2.png" alt="Shapes">
-                              </div>
                            </div>
+
+
                         </div>
                      </div>
                      <div class="testimonial-pagination"></div>
@@ -1374,7 +1029,7 @@
                      </div>
                      <div class="blog-button d-none d-md-inline-block">
                         <div class="tj-button btn-1">
-                           <a class="tj-primary-btn" href="blog-details.html">
+                           <a class="tj-primary-btn" href="#">
                               <span><i class="fa-solid fa-circle-arrow-right"></i> Read More Details</span>
                               <span><i class="fa-solid fa-circle-arrow-right"></i> Read More Details</span>
                            </a>
@@ -1387,33 +1042,32 @@
                <div class="col-lg-12">
                   <div class="blog-item-two">
                      <div class="blog-images">
-                        <a href="blog-details.html"><img src="assets/images/blog/blog-4.jpg" alt="Images"></a>
+                        <a href="#"><img src="assets/images/blog/blog-4.webp" alt="Images"></a>
                         <div class="date">
-                           <span class="line-1">29 Oct</span>
-                           <span class="line-2">2024</span>
+                           <span class="line-1">08 Sept</span>
+                           <span class="line-2">2025</span>
                         </div>
                      </div>
                      <div class="blog-content">
                         <div class="blog-auother">
                            <div class="auother-images">
-                              <a href="#"><img src="assets/images/blog/post-3.jpg" alt="Images"></a>
+                              <a href="#"><img src="assets/images/blog/post-3.webp" alt="Images"></a>
                            </div>
                            <div class="auother-text">
-                              <span class="sub-title">Post By</span>
-                              <h5 class="title"><a href="blog-details.html">Rasona Singh</a></h5>
+                              <span class="sub-title">Auther</span>
+                              <h5 class="title"><a href="#">Rasona Singh</a></h5>
                            </div>
                         </div>
-                        <div class="blog-meta">
+                        <!-- <div class="blog-meta">
                            <ul>
                               <li><i class="fa-solid fa-clock"></i> 07:20pm</li>
                               <li><i class="fa-regular fa-comments"></i> 05 Comment</li>
                            </ul>
-                        </div>
-                        <h4 class="title"><a href="blog-details.html">In our Garden plants for the Shade Garden </a>
+                        </div> -->
+                        <h4 class="title"><a href="#">Garlic & Onion Powders for Flavor and Freshness. </a>
                         </h4>
                         <div class="blog-button">
-                           <a class="read-more" href="blog-details.html">See More Partners<i
-                                 class="fa-solid fa-circle-arrow-right"></i></a>
+                           <a class="read-more" href="#">See More<i class="fa-solid fa-circle-arrow-right"></i></a>
                         </div>
                      </div>
                   </div>
@@ -1421,39 +1075,39 @@
                <div class="col-lg-4">
                   <div class="blog-item-two style-2">
                      <div class="blog-images">
-                        <a href="blog-details.html"><img src="assets/images/blog/blog-5.jpg" alt="Images"></a>
+                        <a href="#"><img src="assets/images/blog/blog-5.webp" alt="Images"></a>
                      </div>
                      <div class="blog-content">
-                        <span class="date">20 Feb, 2024</span>
-                        <h5 class="title"><a href="blog-details.html">The importants of Water for your Garden </a></h5>
+                        <span class="date">20 Aug, 2025</span>
+                        <h6 class="title"><a href="#">Garlic & Onion Powders for Flavor and Freshness. </a></h6>
                      </div>
                   </div>
                </div>
                <div class="col-lg-4">
                   <div class="blog-item-two style-2">
                      <div class="blog-images">
-                        <a href="blog-details.html"><img src="assets/images/blog/blog-6.jpg" alt="Images"></a>
+                        <a href="#"><img src="assets/images/blog/blog-6.webp" alt="Images"></a>
                      </div>
                      <div class="blog-content">
-                        <span class="date">09 Jun, 2024</span>
-                        <h5 class="title"><a href="blog-details.html">It's time to Design your dream Outdoor..</a></h5>
+                        <span class="date">05 Aug, 2025</span>
+                        <h6 class="title"><a href="#">Garlic & Onion Powders for Flavor and Freshness.</a></h6>
                      </div>
                   </div>
                </div>
                <div class="col-lg-4">
                   <div class="blog-item-two style-2">
                      <div class="blog-images">
-                        <a href="blog-details.html"><img src="assets/images/blog/blog-7.jpg" alt="Images"></a>
+                        <a href="#"><img src="assets/images/blog/blog-7.webp" alt="Images"></a>
                      </div>
                      <div class="blog-content">
-                        <span class="date">15 Dec, 2024</span>
-                        <h5 class="title"><a href="blog-details.html">The importants of Water for your Garden</a></h5>
+                        <span class="date">15 July, 2025</span>
+                        <h6 class="title"><a href="#">Garlic & Onion Powders for Flavor and Freshness.</a></h6>
                      </div>
                   </div>
                </div>
                <div class="blog-button d-md-none text-center">
                   <div class="tj-button btn-1">
-                     <a class="tj-primary-btn" href="blog-details.html">
+                     <a class="tj-primary-btn" href="#">
                         <span><i class="fa-solid fa-circle-arrow-right"></i> Read More Details</span>
                         <span><i class="fa-solid fa-circle-arrow-right"></i> Read More Details</span>
                      </a>
@@ -1463,116 +1117,21 @@
          </div>
       </section>
       <!-- end: Blog Area -->
-
-      <!-- start: Cta Area -->
-      <section class="tj-cta-section">
-         <div class="container-fluid">
-            <div class="row">
-               <div class="col-12">
-                  <div class="cta-content-area" data-bg-image="assets/images/shapes/subscribe-1.png">
-                     <div class="cta-logo">
-                        <a class="logo" href="#">
-                           <img src="assets/images/logos/primary-logo.png" alt="Logo">
-                        </a>
-                     </div>
-                     <div class="cta-title">
-                        <h3 class="title">Subscribe & Never Miss an Updates from Us</h3>
-                     </div>
-                     <div class="cta-form">
-                        <input type="email" id="email" name="email" placeholder="Your Email" required="">
-                        <div class="tj-button">
-                           <button class="tj-primary-btn">
-                              <span><i class="fa-solid fa-circle-arrow-right"></i> Subscribe Now</span>
-                              <span><i class="fa-solid fa-circle-arrow-right"></i> Subscribe Now</span>
-                           </button>
-                        </div>
-                     </div>
-                     <div class="cta_shapes">
-                        <img src="assets/images/shapes/cta-shapes-1.png" alt="Shapes">
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!-- end: Cta Area -->
    </main>
-
-    <!-- BEGIN: Contact Form Success Modal Message -->
-    <div class="modal contact_modal" id="message_sent" tabindex="-1">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header alert alert-success">
-            <span class="modal-title"
-              ><strong>Message Sent Successfully</strong></span
-            >
-            <button
-              type="button"
-              class="close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            >
-              <i class="fas fa-times"></i>
-            </button>
-          </div>
-          <div class="modal-body">
-            <p>
-              Thank you for contacting us. We will get back to you shortly.<br />Have
-              a great day!
-            </p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn" data-bs-dismiss="modal">
-              Close
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- END: Contact Form Success Modal Message -->
-
-    <!-- BEGIN: Contact Form Fail Modal Message -->
-    <div class="modal contact_modal failed" id="message_fail" tabindex="-1">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header alert alert-danger">
-            <span class="modal-title"><strong>Error</strong></span>
-            <button
-              type="button"
-              class="close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            >
-              <i class="fas fa-times"></i>
-            </button>
-          </div>
-          <div class="modal-body">
-            <p>Oops! Something went wrong, please try again.</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn" data-bs-dismiss="modal">
-              Close
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-   <!-- start: Footer Area -->
-   <footer class="tj-footer-area footer-1" data-bg-image="assets/images/shapes/h2-footer-bg.png">
+   <footer class="tj-footer-area footer-1" data-bg-image="assets/images/shapes/h2-footer-bg.webp">
       <div class="container">
          <div class="row">
             <div class="col-xl-2 col-lg-6 col-md-6 col-sm-6">
                <div class="footer-widget footer1-col-2 widget_nav_menu">
                   <div class="footer-title">
-                     <h4 class="title">Get Link</h4>
+                     <h4 class="title">Quick Link</h4>
                   </div>
                   <nav>
                      <ul>
-                        <li><a href="#">Latest Services</a></li>
-                        <li><a href="#">About Company</a></li>
-                        <li><a href="#">Awards Winnings</a></li>
-                        <li><a href="#">Media Partner</a></li>
-                        <li><a href="#">Payments Type</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Blogs</a></li>
+                        <li><a href="#">Contact Us</a></li>
                      </ul>
                   </nav>
                </div>
@@ -1606,13 +1165,14 @@
             <div class="col-xl-3 col-lg-6 col-md-6">
                <div class="footer-widget footer1-col-3 widget_timer">
                   <div class="footer-title">
-                     <h4 class="title">Service Schedule</h4>
+                     <h4 class="title">Our Products</h4>
                   </div>
                   <nav>
                      <ul>
-                        <li>Mon-Tues <span>03.00AM - 08.00PM</span></li>
-                        <li>Wedne-Thur <span>07.00AM - 09.00PM</span></li>
-                        <li>Fri-Sat <span>06.00AM - 11.00PM</span></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Blogs</a></li>
+                        <li><a href="#">Contact Us</a></li>
                      </ul>
                   </nav>
                </div>
@@ -1639,14 +1199,14 @@
                         </li>
                      </ul>
                   </div>
-                  <div class="footer-media">
+                  <!-- <div class="footer-media">
                      <ul>
                         <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
                         <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
                         <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
                         <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
                      </ul>
-                  </div>
+                  </div> -->
                </div>
             </div>
          </div>

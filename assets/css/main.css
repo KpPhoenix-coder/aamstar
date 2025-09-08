@@ -2124,7 +2124,7 @@ START: Theme Preloder CSS
 }
 .preloader .animation-preloader .txt-loading .letters-loading::before {
   animation: letters-loading 4s infinite;
-  color: var(--tj-color-theme-secondary);
+  color: var(--tj-color-theme-primary);
   content: attr(data-text-preloader);
   left: 1px;
   opacity: 0;
@@ -2187,7 +2187,7 @@ START: Theme Preloder CSS
 START: Footer CSS
 ----------------------------------------*/
 .tj-footer-area {
-  padding-top: 210px;
+  padding-top: 80px;
   background: var(--tj-color-theme-primary);
   background-repeat: no-repeat;
   background-position: center;
@@ -2202,11 +2202,11 @@ START: Footer CSS
   height: 100%;
   right: 0;
   top: 0;
-  background: var(--tj-color-theme-bg-4);
+  background: var(--tj-color-theme-primary);
   z-index: -1;
 }
 .tj-footer-area.footer-1 {
-  margin-top: -100px;
+  /* margin-top: -100px; */
   position: relative;
   z-index: 1;
 }
@@ -2563,7 +2563,7 @@ START: Footer CSS
 .footer-widget .footer-title .title {
   font-size: 26px;
   margin-bottom: 50px;
-  color: var(--tj-color-common-white);
+  color: var(--tj-color-heading-primary);
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .footer-widget .footer-title .title {
@@ -2649,7 +2649,7 @@ START: Footer CSS
   font-size: 18px;
   line-height: 1;
   font-weight: var(--tj-fw-medium);
-  color: var(--tj-color-grey-15);
+  color: var(--tj-color-common-white);
   position: relative;
   z-index: 1;
 }
@@ -2767,7 +2767,7 @@ START: Footer CSS
   }
 }
 .footer-widget.footer-contact .desc {
-  color: var(--tj-color-grey-15);
+  color: var(--tj-color-common-white);
   font-size: 18px;
   font-weight: var(--tj-fw-medium);
 }
@@ -2942,7 +2942,7 @@ START: Footer CSS
   gap: 6px;
   align-items: center;
   justify-content: space-between;
-  background: linear-gradient(175deg, rgba(241, 210, 169, 0.30196) 0%, rgba(47, 90, 75, 0.88) 83%, rgb(47, 90, 75) 100%);
+  background: linear-gradient(175deg, rgb(163 150 132 / 30%) 0%, rgb(239 210 172) 83%, rgb(251 102 46) 100%);
   padding: 30px 75px;
 }
 .copyright-content .desc {
@@ -3782,8 +3782,8 @@ Services CSS
 }
 
 .tj-service-section-two {
-  padding-top: 120px;
-  padding-bottom: 90px;
+  padding-top: 80px;
+  /* padding-bottom: 80px; */
   background: var(--tj-color-theme-bg-3);
   position: relative;
   z-index: 1;
@@ -4345,7 +4345,7 @@ Services CSS
 }
 .tj-service-item .desc {
   color: var(--tj-color-text-body);
-  margin-bottom: 35px;
+  margin-bottom: 75px;
   line-height: 1.7;
 }
 .tj-service-item .desc p:last-child {
@@ -5102,8 +5102,8 @@ About CSS
 }
 
 .tj-about-section-two {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   position: relative;
   z-index: 1;
 }
@@ -6125,8 +6125,8 @@ Team CSS
 }
 
 .tj-team-section-two {
-  padding-top: 120px;
-  padding-bottom: 200px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 .tj-team-section-two .tj-heading-area {
   margin-bottom: 30px;
@@ -6136,7 +6136,7 @@ Team CSS
 }
 @media only screen and (min-width: 1400px) and (max-width: 1600px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
   .tj-team-section-two {
-    padding-bottom: 90px;
+    padding-bottom: 80px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
@@ -6274,7 +6274,8 @@ Team CSS
   left: 0;
   width: 100%;
   height: 0;
-  background-image: linear-gradient(0deg, rgb(11, 61, 44) 0%, rgba(11, 61, 44, 0.01) 74%);
+  /* background-image: linear-gradient(0deg, rgb(11, 61, 44) 0%, rgba(11, 61, 44, 0.01) 74%); */
+  background-image: linear-gradient(0deg, rgb(251 102 46) 0%, rgba(11, 61, 44, 0.01) 74%);
   transition: all 0.4s ease-in-out 0s;
   z-index: 2;
 }
@@ -6355,7 +6356,7 @@ Team CSS
   content: "";
   z-index: 1;
   border-radius: 0 0 150px 150px;
-  border: 1px solid var(--tj-color-border-3);
+  border: 1px solid var(--tj-color-theme-primary);
 }
 .team-item .team-auother::after {
   position: absolute;
@@ -6506,8 +6507,8 @@ Team CSS
   max-width: 300px;
   width: 100%;
   height: 365px;
-  -webkit-mask-image: url(../images/shapes/team-shapes.svg);
-          mask-image: url(../images/shapes/team-shapes.svg);
+  /* -webkit-mask-image: url(../images/shapes/team-shapes.svg);
+          mask-image: url(../images/shapes/team-shapes.svg); */
   -webkit-mask-repeat: no-repeat;
           mask-repeat: no-repeat;
   -webkit-mask-position: center;
@@ -8619,9 +8620,10 @@ Project CSS
 }
 
 .tj-project-section-two {
-  padding-top: 120px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   background: var(--tj-color-theme-bg-3);
-  border-radius: 0px 0px 0px 350px;
+  /* border-radius: 0px 0px 0px 350px; */
   position: relative;
   z-index: 1;
 }
@@ -8632,7 +8634,8 @@ Project CSS
   height: 520px;
   right: 16%;
   bottom: 136px;
-  background: rgba(11, 61, 44, 0.9);
+  /* background: rgba(11, 61, 44, 0.9); */
+  background: rgb(251 102 46 / 63%);
   border-radius: 150px 150px 0px 0px;
   z-index: 2;
 }
@@ -8674,7 +8677,7 @@ Project CSS
   background-size: cover;
   height: 700px;
   z-index: 1;
-  border-radius: 0px 0px 0px 350px;
+  border-radius: 350px 0px 0px 350px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .tj-project-section-two .project-wrapper {
@@ -9400,7 +9403,7 @@ Project CSS
   align-items: center;
   flex-wrap: wrap;
   gap: 10px;
-  background: var(--tj-color-common-white);
+  background: var(--tj-color-theme-secondary);
   padding: 34px 15px 40px 50px;
   max-width: 430px;
   width: 100%;
@@ -10087,13 +10090,13 @@ Testimonial CSS
 }
 
 .tj-testimonial-section-two {
-  padding-top: 120px;
-  padding-bottom: 110px;
-  background-color: var(--tj-color-theme-primary);
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: var(--tj-color-theme-bg-3);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border-radius: 0px 0px 800px 800px;
+  /* border-radius: 0px 0px 800px 800px; */
 }
 .tj-testimonial-section-two .tj-heading-area {
   max-width: 585px;
@@ -10101,27 +10104,29 @@ Testimonial CSS
   margin: 0 auto 60px;
 }
 .tj-testimonial-section-two .tj-heading-area .sub-title {
-  color: var(--tj-color-theme-secondary);
+  color: var(--tj-color-heading-primary);
 }
 .tj-testimonial-section-two .tj-heading-area .sec-title {
-  color: var(--tj-color-common-white);
+  color: var(--tj-color-heading-primary);
 }
 .tj-testimonial-section-two .tj-testimonial-slider2 {
-  border-radius: 200px;
+  /* border-radius: 200px; */
   overflow: hidden;
 }
+
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .tj-testimonial-section-two .tj-testimonial-slider2 {
-    border-radius: 50px;
+    /* border-radius: 50px; */
   }
 }
+
 .tj-testimonial-section-two .testimonial-pagination {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 30px;
-  margin-top: 75px;
-  margin-bottom: 20px;
+  margin-top: 45px;
+  margin-bottom: 10px;
   z-index: 3;
 }
 .tj-testimonial-section-two .testimonial-pagination .swiper-pagination-bullet {
@@ -10149,29 +10154,29 @@ Testimonial CSS
 }
 @media only screen and (min-width: 1601px) and (max-width: 1750px) {
   .tj-testimonial-section-two {
-    border-radius: 0px 0px 650px 650px;
+    /* border-radius: 0px 0px 650px 650px; */
   }
 }
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
   .tj-testimonial-section-two {
-    border-radius: 0px 0px 450px 450px;
+    /* border-radius: 0px 0px 450px 450px; */
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .tj-testimonial-section-two {
-    border-radius: 0px 0px 400px 400px;
+    /* border-radius: 0px 0px 400px 400px; */
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .tj-testimonial-section-two {
-    border-radius: 0px 0px 50px 50px;
+    /* border-radius: 0px 0px 50px 50px; */
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .tj-testimonial-section-two {
     padding-top: 80px;
     padding-bottom: 70px;
-    border-radius: 0px 0px 50px 50px;
+    /* border-radius: 0px 0px 50px 50px; */
   }
   .tj-testimonial-section-two .tj-heading-area {
     margin: 0 auto 40px;
@@ -10185,7 +10190,7 @@ Testimonial CSS
     border-radius: 0px;
   }
   .tj-testimonial-section-two .tj-testimonial-slider2 {
-    border-radius: 50px;
+    /* border-radius: 50px; */
   }
 }
 
@@ -10667,8 +10672,8 @@ Testimonial CSS
 }
 
 .testimonial-item-two {
-  background: var(--tj-color-theme-secondary);
-  padding: 25px 35px;
+  /* background: var(--tj-color-theme-secondary); */
+  padding: 0px 10px;
 }
 .testimonial-item-two .test-shapes {
   position: absolute;
@@ -10696,7 +10701,7 @@ Testimonial CSS
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .testimonial-item-two .testimonial-rating .star-ratings .empty-ratings {
   color: var(--tj-color-theme-primary);
@@ -10734,9 +10739,9 @@ Testimonial CSS
 }
 .testimonial-item-two .auother-text {
   background: var(--tj-color-common-white);
-  border-radius: 150px;
-  margin-bottom: 15px;
-  padding: 35px 25px 35px 185px;
+  border-radius: 40px;
+  margin-bottom: 10px;
+  padding: 20px;
   position: relative;
   z-index: 1;
 }
@@ -10762,7 +10767,7 @@ Testimonial CSS
 }
 .testimonial-item-two .sub-title {
   display: block;
-  font-size: 18px;
+  font-size: 15px;
   color: var(--tj-color-theme-primary);
   font-weight: var(--tj-fw-sbold);
   text-align: center;
@@ -11219,8 +11224,8 @@ Blog CSS
 }
 
 .tj-blog-section-two {
-  padding-top: 120px;
-  padding-bottom: 90px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 .tj-blog-section-two.blog-style-three {
   padding-top: 0px;
@@ -11701,7 +11706,7 @@ Blog CSS
   margin-bottom: 25px;
 }
 .blog-item-two.style-2 .blog-content .title {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.6;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
@@ -14772,8 +14777,8 @@ Contact CSS
 Faq CSS
 ----------------------------------------*/
 .tj-faq-section {
-  padding-top: 120px;
-  padding-bottom: 50px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   position: relative;
   z-index: 1;
 }
@@ -15332,7 +15337,7 @@ Slider CSS
   font-weight: var(--tj-fw-medium);
   border-radius: 50px;
   padding: 5px 20px;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
   opacity: 0;
   visibility: hidden;
   transition-delay: 1000ms;
@@ -15350,6 +15355,7 @@ Slider CSS
   transition: transform 2000ms ease, opacity 2000ms ease;
   margin-bottom: 0;
   z-index: 1;
+  font-size: 55px;
 }
 .tj-slider-item .slider-content-area .slider-text .slider-title span .shapes-icon {
   position: absolute;
