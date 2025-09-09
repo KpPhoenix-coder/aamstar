@@ -2649,7 +2649,7 @@ START: Footer CSS
   font-size: 18px;
   line-height: 1;
   font-weight: var(--tj-fw-medium);
-  color: var(--tj-color-common-white);
+  color: var(--tj-color-theme-primary);
   position: relative;
   z-index: 1;
 }
@@ -2663,7 +2663,7 @@ START: Footer CSS
   transform-origin: right;
   transform: scaleX(0);
   transition: transform 0.3s ease-in-out;
-  background: var(--tj-color-grey-15);
+  background: var(--tj-color-theme-primary);
 }
 .footer-widget.widget_nav_menu nav ul li a:hover::before {
   transform-origin: left;
@@ -2725,7 +2725,7 @@ START: Footer CSS
   line-height: 1.6;
 }
 .footer-widget.recent-post .post-item .post-content .post-title a {
-  color: var(--tj-color-common-white);
+  color: var(--tj-color-theme-primary);
   display: inline;
   background-image: linear-gradient(to right, currentColor 0, currentColor 100%);
   background-position: 0 100%;
@@ -2734,7 +2734,7 @@ START: Footer CSS
   transition: all 0.3s, background-size 0.8s;
 }
 .footer-widget.recent-post .post-item .post-content .post-title a:hover {
-  color: var(--tj-color-common-white);
+  /* color: var(--tj-color-common-white); */
   background-size: 100% 1px;
 }
 .footer-widget.widget_timer {
@@ -2751,7 +2751,7 @@ START: Footer CSS
   align-items: center;
   justify-content: space-between;
   font-size: 18px;
-  color: var(--tj-color-grey-15);
+  color: var(--tj-color-theme-primary);
   font-weight: var(--tj-fw-medium);
   margin-bottom: 30px;
   line-height: 1;
@@ -2937,13 +2937,13 @@ START: Footer CSS
 }
 
 .copyright-content {
-  display: flex;
+  /* display: flex; */
   flex-wrap: wrap;
   gap: 6px;
   align-items: center;
   justify-content: space-between;
-  background: linear-gradient(175deg, rgb(163 150 132 / 30%) 0%, rgb(239 210 172) 83%, rgb(251 102 46) 100%);
-  padding: 30px 75px;
+  background: linear-gradient(175deg, rgb(0 0 0 / 30%) 0%, rgb(239 210 172) 83%, rgb(255 205 186) 100%);
+  padding: 15px 35px;
 }
 .copyright-content .desc {
   color: var(--tj-color-common-white);
@@ -3049,7 +3049,7 @@ START: Theme Banner CSS
 .tj-banner-section {
   position: relative;
   z-index: 1;
-  padding-bottom: 200px;
+  padding-bottom: 0px;
 }
 .tj-banner-section .banner-bg {
   position: absolute;
@@ -3058,13 +3058,14 @@ START: Theme Banner CSS
   width: 100%;
   height: 100%;
   background-size: cover;
-  background-position: center 100px;
-  -webkit-mask-image: url(../images/shapes/banner-img-shape.svg);
-          mask-image: url(../images/shapes/banner-img-shape.svg);
-  -webkit-mask-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* -webkit-mask-image: url(../images/shapes/banner-img-shape.svg);
+          mask-image: url(../images/shapes/banner-img-shape.svg); */
+  /* -webkit-mask-repeat: no-repeat;
           mask-repeat: no-repeat;
   -webkit-mask-size: cover;
-          mask-size: cover;
+          mask-size: cover; */
   z-index: -1;
 }
 .tj-banner-section .banner-shapes {
@@ -3183,7 +3184,7 @@ START: Theme Banner CSS
   border-radius: 360px;
   padding: 4px 25px;
   margin-bottom: 25px;
-  margin-left: 30px;
+  /* margin-left: 30px; */
 }
 .banner-content-area .banner-inner .sub-title i {
   font-size: 20px;
@@ -3206,9 +3207,9 @@ START: Theme Banner CSS
 }
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
   .banner-content-area .banner-inner {
-    max-width: 710px;
-    padding: 80px;
-    min-height: 850px;
+    max-width: 510px;
+    padding: 40px;
+    min-height: 650px;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -3533,8 +3534,8 @@ START: Theme Banner CSS
 START: Theme Breadcrumb CSS
 ----------------------------------------*/
 .tj-breadcrumb-area {
-  padding-top: 395px;
-  padding-bottom: 150px;
+  padding-top: 120px;
+  padding-bottom: 40px;
   position: relative;
   z-index: 2;
 }
@@ -3544,8 +3545,8 @@ START: Theme Breadcrumb CSS
   left: 0;
   width: 100%;
   height: 100%;
-  -webkit-mask-image: url(../images/shapes/breadcrumb-bg-shapes.svg);
-          mask-image: url(../images/shapes/breadcrumb-bg-shapes.svg);
+  /* -webkit-mask-image: url(../images/shapes/breadcrumb-bg-shapes.svg);
+          mask-image: url(../images/shapes/breadcrumb-bg-shapes.svg); */
   -webkit-mask-repeat: no-repeat;
           mask-repeat: no-repeat;
   -webkit-mask-size: cover;
@@ -3564,14 +3565,14 @@ START: Theme Breadcrumb CSS
 }
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
   .tj-breadcrumb-area {
-    padding-top: 300px;
-    padding-bottom: 120px;
+    padding-top: 120px;
+    padding-bottom: 40px;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .tj-breadcrumb-area {
-    padding-top: 260px;
-    padding-bottom: 100px;
+    padding-top: 120px;
+    padding-bottom: 40px;
   }
   .tj-breadcrumb-area .breadcrumb-bg {
     bottom: -25px;
@@ -3597,8 +3598,8 @@ START: Theme Breadcrumb CSS
 }
 @media (max-width: 575px) {
   .tj-breadcrumb-area {
-    padding-top: 290px;
-    padding-bottom: 60px;
+    padding-top: 80px;
+    padding-bottom: 40px;
   }
   .tj-breadcrumb-area .breadcrumb-bg {
     bottom: -40px;
@@ -3656,7 +3657,7 @@ START: Theme Breadcrumb CSS
   margin: 0 auto 35px;
   position: relative;
   z-index: 2;
-  border: 2px solid var(--tj-color-border-5);
+  border: 2px solid var(--tj-color-theme-primary);
   border-radius: 20px;
   padding: 5px 15px;
 }
@@ -3664,7 +3665,7 @@ START: Theme Breadcrumb CSS
   display: flex;
   align-items: center;
   gap: 10px;
-  color: var(--tj-color-common-white);
+  color: var(--tj-color-theme-primary);
   font-size: 18px;
   font-weight: var(--tj-fw-medium);
   position: relative;
@@ -3678,7 +3679,7 @@ START: Theme Breadcrumb CSS
   top: 50%;
   transform: translateY(-50%);
   left: -20px;
-  background: var(--tj-color-common-white);
+  background: var(--tj-color-theme-primary);
 }
 .breadcrumb-content-area .breadcrumb-link > span:first-child::before {
   display: none;
@@ -3687,7 +3688,7 @@ START: Theme Breadcrumb CSS
   font-weight: var(--tj-fw-bold);
 }
 .breadcrumb-content-area .breadcrumb-link a span {
-  color: var(--tj-color-common-white);
+  color: var(--tj-color-theme-primary);
   font-size: 18px;
   font-weight: var(--tj-fw-medium);
 }
@@ -4685,11 +4686,11 @@ Services CSS
 START: Service CSS
 ----------------------------------------*/
 .tj-service-details {
-  padding-bottom: 120px;
+  padding-bottom: 0px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .tj-service-details {
-    padding-bottom: 80px;
+    padding-bottom: 0px;
   }
 }
 
@@ -4735,7 +4736,7 @@ START: Service CSS
   border-radius: 25px;
 }
 .service-details-item .service_content .title {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .service-details-item .service_content .desc {
   line-height: 1.7;
@@ -4764,8 +4765,8 @@ START: Service CSS
   margin-bottom: 30px;
 }
 .service-tabs .nav .nav-item .service-tab {
-  font-weight: var(--tj-fw-medium);
-  color: var(--tj-color-text-body);
+  font-weight: var(--tj-fw-sbold);
+  color: var(--tj-color-theme-primary);
   border-radius: 0;
   background-color: var(--tj-color-grey-13);
   border: 1px solid var(--tj-color-border-6);
@@ -5123,6 +5124,8 @@ About CSS
 .tj-about-section-three {
   position: relative;
   z-index: 1;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 .tj-about-section-three .about-shapes {
   position: absolute;
@@ -8633,7 +8636,7 @@ Project CSS
   width: 260px;
   height: 520px;
   right: 16%;
-  bottom: 136px;
+  bottom: 182px;
   /* background: rgba(11, 61, 44, 0.9); */
   background: rgb(251 102 46 / 63%);
   border-radius: 150px 150px 0px 0px;
@@ -11273,8 +11276,8 @@ Blog CSS
 }
 
 .tj-blog-section-three {
-  padding-top: 175px;
-  padding-bottom: 90px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 .tj-blog-section-three.blog-style-one {
   padding-top: 0px;
@@ -11816,6 +11819,7 @@ Blog CSS
 .blog-item-three .blog-inner .blog-content {
   background: var(--tj-color-common-white);
   padding-left: 30px;
+  padding-right: 30px;
   border-radius: 0px 50px 0px 0px;
 }
 .blog-item-three .blog-inner .blog-content .title {
@@ -14335,7 +14339,7 @@ Contact CSS
 
 .contact-top-area {
   position: relative;
-  padding-bottom: 170px;
+  padding-bottom: 230px;
   z-index: 1;
 }
 .contact-top-area .tj-heading-area {
@@ -14535,10 +14539,10 @@ Contact CSS
 .form-box form .form-input textarea,
 .form-box form .form-input input[type=email] {
   border: 1px solid var(--tj-color-theme-primary);
-  padding: 16px 20px;
+  padding: 10px 20px;
   width: 100%;
   background: var(--tj-color-common-white);
-  border-radius: 50px;
+  border-radius: 10px;
   resize: none;
 }
 .form-box form .form-input input:not([type=submit]):not([type=radio]):not([type=checkbox]):not([type=search])::-moz-placeholder, .form-box form .form-input textarea::-moz-placeholder, .form-box form .form-input input[type=email]::-moz-placeholder {
@@ -14552,8 +14556,8 @@ Contact CSS
 .form-box form .form-input textarea {
   margin-top: 20px;
   min-height: 150px;
-  border-radius: 100px;
-  padding: 20px 100px 20px 40px;
+  border-radius: 10px;
+  padding: 20px 40px 20px 40px;
 }
 .form-box .contact-button {
   margin-top: 15px;
@@ -14919,6 +14923,15 @@ Faq CSS
   border: 1px solid var(--tj-color-theme-primary);
   border-radius: 150px;
 }
+
+.product_page .accordion-item .faq-content .faq-title {
+  font-size: 14px;
+  font-weight: var(--tj-fw-light);
+  padding: 10px 30px 10px 30px;
+  color: var(--tj-color-theme-primary);
+}
+
+
 .accordion-item .faq-content .faq-title:before {
   position: absolute;
   content: "\f107";
@@ -14969,6 +14982,12 @@ Faq CSS
   border-radius: 150px;
   border: 1px solid var(--tj-color-theme-primary);
   margin-top: -25px;
+}
+.product_page .accordion-item .faq-text {
+  padding: 30px 22px 11px 30px;
+      width: 98%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .accordion-item .faq-text p {
   color: var(--tj-color-text-body);
@@ -16009,3 +16028,14 @@ Newsletter CSS
 }
 
 /* !END: Newsletter CSS *//*# sourceMappingURL=main.css.map */
+
+
+.ig-gallery img {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  border-radius: 8px;
+}
+
+.ig-gallery img:hover {
+  transform: scale(1.02);
+  opacity: 0.9;
+}

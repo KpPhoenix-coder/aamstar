@@ -27,244 +27,7 @@
 
 <body>
 
-   <!-- start: Preloader -->
-   <div id="preloader" class="preloader">
-      <div class="animation-preloader">
-         <div class="spinner">
-            <div class="loader-icon">
-               <img src="assets/images/favicon.webp" alt="Aamstar" />
-            </div>
-         </div>
-         <div class="txt-loading">
-            <span data-text-preloader="A" class="letters-loading"> A </span>
-            <span data-text-preloader="A" class="letters-loading"> A </span>
-            <span data-text-preloader="M" class="letters-loading"> M </span>
-            <span data-text-preloader="S" class="letters-loading"> S </span>
-            <span data-text-preloader="T" class="letters-loading"> T </span>
-            <span data-text-preloader="A" class="letters-loading"> A </span>
-            <span data-text-preloader="R" class="letters-loading"> R </span>
-         </div>
-      </div>
-      <!-- <button class="tj-cancel-btn">Cancel Preloader</button> -->
-   </div>
-   <!-- end: Preloader -->
-
-
-   <!-- start: Header Area -->
-   <header class="tj-header-area header-absolute header-2">
-      <div class="header-bottom-area">
-         <div class="container-fluid">
-            <div class="row">
-               <div class="col-12">
-                  <div class="header-wrapper">
-                     <div class="site-logo">
-                        <a class="logo" href="index.php"><img src="assets/images/logos/logo.webp"
-                              alt="logo"></a>
-                     </div>
-                     <div class="mainmenu-inner">
-                        <!-- <div class="social-media d-none d-xxl-flex">
-                           <ul>
-                              <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
-                              <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                              <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
-                              <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                           </ul>
-                        </div> -->
-                        <div class="mainmenu d-lg-block d-none">
-                           <nav id="main-menu">
-                              <ul>
-                                 <li><a href="index.php">Home</a></li>
-                                 <li><a href="#">About</a></li>
-                                 <li class="has-dropdown">
-                                    <a href="javascript:void(0)">Blog</a>
-                                    <ul class="sub-menu">
-                                       <li class="has-dropdown">
-                                          <a href="javascript:void(0)">Blog</a>
-                                          <ul class="sub-menu">
-                                             <li>
-                                                <a href="blog-2.html">Layout 01</a>
-                                             </li>
-                                             <li>
-                                                <a href="blog-3.html">Layout 02</a>
-                                             </li>
-                                             <li>
-                                                <a href="blog-4.html">Layout 03</a>
-                                             </li>
-                                          </ul>
-                                       </li>
-                                       <li>
-                                          <a href="blog.html">Blog Standard</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">Blog Details</a>
-                                       </li>
-                                    </ul>
-                                 </li>
-                                 <li><a href="contact.html">Conatct</a></li>
-                              </ul>
-                           </nav>
-                        </div>
-                     </div>
-                     <div class="header-contact">
-                        <div class="call-icon">
-                           <i class="fa-solid fa-phone"></i>
-                        </div>
-                        <div class="call-text">
-                           <span>Make a Call</span>
-                           <a class="link" href="mailto:+12300051168">+ 123(000) 51168</a>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </header>
-   <!-- end: Header Area -->
-
-   <!-- start: Header Area -->
-   <header class="tj-header-area header-dublicate header-2 header-sticky">
-      <div class="header-bottom-area">
-         <div class="container-fluid px-0">
-            <div class="row">
-               <div class="col-12">
-                  <div class="header-wrapper">
-                     <div class="site-logo">
-                        <a class="logo" href="index.php"><img src="assets/images/logos/logo.webp"
-                              alt="logo"></a>
-                     </div>
-                     <div class="mainmenu-inner">
-                        <!-- <div class="social-media d-none d-xxl-flex">
-                           <ul>
-                              <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
-                              <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                              <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
-                              <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                           </ul>
-                        </div> -->
-                        <div class="mainmenu d-lg-block d-none">
-                           <nav>
-                              <ul>
-                                 <li class="has-dropdown current-menu-ancestor">
-                                    <a href="index.html">Home</a>
-                                    <ul class="sub-menu">
-                                       <li><a href="index.html">Home One</a></li>
-                                       <li class="current-menu-item">
-                                          <a href="index-2.html">Home Two</a>
-                                       </li>
-                                       <li><a href="index-3.html">Home Three</a></li>
-                                    </ul>
-                                 </li>
-                                 <li><a href="about.html">About</a></li>
-                                 <li class="has-dropdown">
-                                    <a href="javascript:void(0)">Services</a>
-                                    <ul class="sub-menu">
-                                       <li class="has-dropdown">
-                                          <a href="javascript:void(0)">Services</a>
-                                          <ul class="sub-menu">
-                                             <li>
-                                                <a href="service.html">Layout 01</a>
-                                             </li>
-                                             <li>
-                                                <a href="service-2.html">Layout 02</a>
-                                             </li>
-                                             <li>
-                                                <a href="service-3.html">Layout 03</a>
-                                             </li>
-                                          </ul>
-                                       </li>
-                                       <li>
-                                          <a href="service-details.html">Services Details</a>
-                                       </li>
-                                    </ul>
-                                 </li>
-                                 <li class="has-dropdown">
-                                    <a href="javascript:void(0)">Pages</a>
-                                    <ul class="sub-menu">
-                                       <li class="has-dropdown">
-                                          <a href="javascript:void(0)">Projects</a>
-                                          <ul class="sub-menu">
-                                             <li>
-                                                <a href="project.html">Layout 01</a>
-                                             </li>
-                                             <li>
-                                                <a href="project-2.html">Layout 02</a>
-                                             </li>
-                                             <li>
-                                                <a href="project-3.html">Layout 03</a>
-                                             </li>
-                                          </ul>
-                                       </li>
-                                       <li>
-                                          <a href="project-details.html">Project Details</a>
-                                       </li>
-                                       <li>
-                                          <a href="team.html">Team</a>
-                                       </li>
-                                       <li>
-                                          <a href="team-details.html">Team Details</a>
-                                       </li>
-                                    </ul>
-                                 </li>
-                                 <li class="has-dropdown">
-                                    <a href="javascript:void(0)">Blog</a>
-                                    <ul class="sub-menu">
-                                       <li class="has-dropdown">
-                                          <a href="javascript:void(0)">Blog</a>
-                                          <ul class="sub-menu">
-                                             <li>
-                                                <a href="blog-2.html">Layout 01</a>
-                                             </li>
-                                             <li>
-                                                <a href="blog-3.html">Layout 02</a>
-                                             </li>
-                                             <li>
-                                                <a href="blog-4.html">Layout 03</a>
-                                             </li>
-                                          </ul>
-                                       </li>
-                                       <li>
-                                          <a href="blog.html">Blog Standard</a>
-                                       </li>
-                                       <li>
-                                          <a href="#">Blog Details</a>
-                                       </li>
-                                    </ul>
-                                 </li>
-                                 <li><a href="contact.html">Conatct</a></li>
-                              </ul>
-                           </nav>
-                        </div>
-                        <!-- <div class="search-box d-none d-xxl-flex">
-                           <input class="d-xl-block" type="text" placeholder="I’m looking for..">
-                           <div class="header-search d-search">
-                              <button class="search"><i class="fa-solid fa-magnifying-glass"></i></button>
-                           </div>
-                        </div>
-                        <div class="header-search d-xxl-none">
-                           <button class="search"><i class="fa-solid fa-magnifying-glass"></i></button>
-                        </div> -->
-                        <!-- <div class="hamburger_menu d-lg-none">
-                           <a class="canva_expander nav-menu-link menu-button" href="#"><i
-                                 class="fa-regular fa-bars"></i></a>
-                        </div> -->
-                     </div>
-                     <div class="header-contact">
-                        <div class="call-icon">
-                           <i class="fa-solid fa-phone"></i>
-                        </div>
-                        <div class="call-text">
-                           <span>Make a Call</span>
-                           <a class="link" href="mailto:+12300051168">+ 123(000) 51168</a>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </header>
-   <!-- end: Header Area -->
+ <?php include('header.php'); ?>
 
    <main id="primary" class="site-main">
       <!-- start: Slider Area -->
@@ -286,13 +49,13 @@
                                  </h1>
                                  <div class="slider-button">
                                     <div class="tj-button btn-1">
-                                       <a class="tj-primary-btn" href="contact.html">
+                                       <a class="tj-primary-btn" href="#">
                                           <span><i class="fa-solid fa-circle-arrow-right"></i> Discover More</span>
                                           <span><i class="fa-solid fa-circle-arrow-right"></i> Discover More</span>
                                        </a>
                                     </div>
                                     <div class="tj-button btn-2">
-                                       <a class="tj-secondary-btn" href="contact.html">
+                                       <a class="tj-secondary-btn" href="#">
                                           <span><i class="fa-solid fa-circle-arrow-right"></i> All Services</span>
                                           <span><i class="fa-solid fa-circle-arrow-right"></i> All Services</span>
                                        </a>
@@ -477,7 +240,7 @@
             <div class="row masonry-gallery">
                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 services-grid-item grid-item">
                   <div class="tj-service-item text-center">
-                     <h4 class="title"><a href="service-details.html">Quality Assurance</a></h4>
+                     <h4 class="title"><a href="#">Quality Assurance</a></h4>
                      <div class="desc">
                         <p>We carefully examine the appearance, texture, taste, flavor, and aroma of every product to ensure only the best quality is delivered.</p>
                      </div>
@@ -491,7 +254,7 @@
                </div>
                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 services-grid-item grid-item">
                   <div class="tj-service-item text-center">
-                     <h4 class="title"><a href="service-details.html">Product Safety</a></h4>
+                     <h4 class="title"><a href="#">Product Safety</a></h4>
                      <div class="desc">
                         <p>With our dedicated storage facilities, we maintain strict safety standards to protect products from contamination and hazards.</p>
                      </div>
@@ -505,7 +268,7 @@
                </div>
                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 services-grid-item grid-item">
                   <div class="tj-service-item text-center">
-                     <h4 class="title"><a href="service-details.html">Competitive Pricing</a></h4>
+                     <h4 class="title"><a href="#">Competitive Pricing</a></h4>
                      <div class="desc">
                         <p>Through strong supplier networks and skilled negotiations, we offer competitive prices without compromising product quality.</p>
                      </div>
@@ -519,7 +282,7 @@
                </div>
                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 services-grid-item grid-item">
                   <div class="tj-service-item text-center">
-                     <h4 class="title"><a href="service-details.html">Customized Packaging</a></h4>
+                     <h4 class="title"><a href="#">Customized Packaging</a></h4>
                      <div class="desc">
                         <p>We provide tailored packaging options that meet client requirements and improve product appeal in the marketplace.</p>
                      </div>
@@ -533,7 +296,7 @@
                </div>
                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 services-grid-item grid-item">
                   <div class="tj-service-item text-center">
-                     <h4 class="title"><a href="service-details.html">Timely Delivery</a></h4>
+                     <h4 class="title"><a href="#">Timely Delivery</a></h4>
                      <div class="desc">
                         <p>Our efficient sourcing and logistics ensure that every order is delivered promptly within the committed timeframe.</p>
                      </div>
@@ -575,15 +338,13 @@
                            <div class="faq-content">
                               <button class="faq-title" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1"
                                  aria-expanded="true">
-                                 How often I water my garden?
+                                 What is dehydrated garlic powder used for?
                                  <span class="number">01</span>
                               </button>
                               <div id="faq-1" class="collapse show" data-bs-parent="#faqOne">
                                  <div class="accordion-body faq-text">
                                     <p>
-                                       The ideal time for planting to seeds depends on the specific plant & your local
-                                       climate. In general, most seeds are best planted during the spring after the last
-                                       frost has passed. However, some plants thrive when...
+                                      It’s commonly used in spice mixes, dry soups, instant food packs, snacks, and sauces.
                                     </p>
                                  </div>
                               </div>
@@ -593,15 +354,13 @@
                            <div class="faq-content">
                               <button class="faq-title collapsed" type="button" data-bs-toggle="collapse"
                                  data-bs-target="#faq-2" aria-expanded="false">
-                                 What's the best plant seeds?
+                                How can I get a quote or sample?
                                  <span class="number">02</span>
                               </button>
                               <div id="faq-2" class="collapse" data-bs-parent="#faqOne">
                                  <div class="accordion-body faq-text">
                                     <p>
-                                       The ideal time for planting to seeds depends on the specific plant & your local
-                                       climate. In general, most seeds are best planted during the spring after the last
-                                       frost has passed. However, some plants thrive when...
+                                      Please Aamstar TradeFame with your quantity and destination, and we’ll share pricing, lead times, and sample details.
                                     </p>
                                  </div>
                               </div>
@@ -611,15 +370,13 @@
                            <div class="faq-content">
                               <button class="faq-title collapsed" type="button" data-bs-toggle="collapse"
                                  data-bs-target="#faq-3" aria-expanded="false">
-                                 How can I continue update?
+                                What is dehydrated garlic powder used for?
                                  <span class="number">03</span>
                               </button>
                               <div id="faq-3" class="collapse" data-bs-parent="#faqOne">
                                  <div class="accordion-body faq-text">
                                     <p>
-                                       The ideal time for planting to seeds depends on the specific plant & your local
-                                       climate. In general, most seeds are best planted during the spring after the last
-                                       frost has passed. However, some plants thrive when...
+                                       It’s commonly used in spice mixes, dry soups, instant food packs, snacks, and sauces.
                                     </p>
                                  </div>
                               </div>
@@ -665,7 +422,7 @@
                   <div class="project-wrapper" data-bg-image="assets/images/project/pr02.webp" style="background-image: url('assets/images/project/pr02.webp);" >
                      <div class="project-style-2">
                         <!-- <div class="project-icon">
-                           <a href="project-details.html"><i class="fa-solid fa-plus"></i></a>
+                           <a href="#"><i class="fa-solid fa-plus"></i></a>
                         </div> -->
                         <div class="project-text">
                            <!-- <span class="sub-title">Gardening</span> -->
@@ -722,7 +479,7 @@
                         </div>
                      </div>
                      <div class="team-auother">
-                        <h4 class="auother-name"><a href="team-details.html">Liman Singha</a></h4>
+                        <h4 class="auother-name"><a href="#">Liman Singha</a></h4>
                         <span class="sub-title">Creative Director</span>
                      </div>
                   </div>
@@ -747,7 +504,7 @@
                         </div>
                      </div>
                      <div class="team-auother">
-                        <h4 class="auother-name"><a href="team-details.html">Tina D. Langua</a></h4>
+                        <h4 class="auother-name"><a href="#">Tina D. Langua</a></h4>
                         <span class="sub-title">Expert Farmer</span>
                      </div>
                   </div>
@@ -772,7 +529,7 @@
                         </div>
                      </div>
                      <div class="team-auother">
-                        <h4 class="auother-name"><a href="team-details.html">Kelly M. Jones</a></h4>
+                        <h4 class="auother-name"><a href="#">Kelly M. Jones</a></h4>
                         <span class="sub-title">Landscape Designer</span>
                      </div>
                   </div>
@@ -783,7 +540,7 @@
                         <h4 class="title">You Can Make Easily Join With Us</h4>
                         <div class="team-button">
                            <div class="tj-button">
-                              <a class="tj-primary-btn" href="team-details.html">
+                              <a class="tj-primary-btn" href="#">
                                  <span><i class="fa-solid fa-circle-arrow-right"></i> Join With Us Now</span>
                                  <span><i class="fa-solid fa-circle-arrow-right"></i> Join With Us Now</span>
                               </a>
@@ -812,7 +569,7 @@
                      <h2 class="sec-title">Our Team of Experts</h2>
                      <div class="team-button d-none d-sm-block">
                         <div class="tj-button btn-1">
-                           <a class="tj-primary-btn" href="team-details.html">
+                           <a class="tj-primary-btn" href="#">
                               <span><i class="fa-solid fa-circle-arrow-right"></i> See More Team</span>
                               <span><i class="fa-solid fa-circle-arrow-right"></i> See More Team</span>
                            </a>
@@ -866,7 +623,7 @@
 
                <div class="team-button d-sm-none">
                   <div class="tj-button btn-1">
-                     <a class="tj-primary-btn" href="team-details.html">
+                     <a class="tj-primary-btn" href="#">
                         <span><i class="fa-solid fa-circle-arrow-right"></i> See More Team</span>
                         <span><i class="fa-solid fa-circle-arrow-right"></i> See More Team</span>
                      </a>
@@ -1118,120 +875,8 @@
       </section>
       <!-- end: Blog Area -->
    </main>
-   <footer class="tj-footer-area footer-1" data-bg-image="assets/images/shapes/h2-footer-bg.webp">
-      <div class="container">
-         <div class="row">
-            <div class="col-xl-2 col-lg-6 col-md-6 col-sm-6">
-               <div class="footer-widget footer1-col-2 widget_nav_menu">
-                  <div class="footer-title">
-                     <h4 class="title">Quick Link</h4>
-                  </div>
-                  <nav>
-                     <ul>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Our Team</a></li>
-                        <li><a href="#">Blogs</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                     </ul>
-                  </nav>
-               </div>
-            </div>
-            <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
-               <div class="footer-widget footer1-col-3 recent-post">
-                  <div class="footer-title">
-                     <h4 class="title">Latest Post</h4>
-                  </div>
-                  <div class="post-item">
-                     <div class="post-images">
-                        <a href="project-details.html"><img src="assets/images/blog/post-1.jpg" alt="Images" /></a>
-                     </div>
-                     <div class="post-content">
-                        <span class="date">12 Nov, 2024</span>
-                        <h6 class="post-title"><a href="project-details.html">Grow Your Own Small Articles Spaces</a>
-                        </h6>
-                     </div>
-                  </div>
-                  <div class="post-item">
-                     <div class="post-images">
-                        <a href="project-details.html"><img src="assets/images/blog/post-2.jpg" alt="Images" /></a>
-                     </div>
-                     <div class="post-content">
-                        <span class="date">15 Oct, 2024</span>
-                        <h6 class="post-title"><a href="project-details.html">Guide For Growing Updates Plants</a></h6>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="col-xl-3 col-lg-6 col-md-6">
-               <div class="footer-widget footer1-col-3 widget_timer">
-                  <div class="footer-title">
-                     <h4 class="title">Our Products</h4>
-                  </div>
-                  <nav>
-                     <ul>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Our Team</a></li>
-                        <li><a href="#">Blogs</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                     </ul>
-                  </nav>
-               </div>
-            </div>
-            <div class="col-xl-4 col-lg-6 col-md-6">
-               <div class="footer-widget footer1-col-4 footer-contact">
-                  <div class="footer-title">
-                     <h4 class="title">Contact Us</h4>
-                  </div>
-                  <div class="desc">
-                     <p>80 Road Broklyn Street, 600 New York, USA</p>
-                  </div>
-                  <div class="contact-list">
-                     <ul>
-                        <li>
-                           <i class="fa-solid fa-envelope"></i>
-                           <a href="needhelp@company.com
-                              ">needhelp@company.com
-                           </a>
-                        </li>
-                        <li>
-                           <i class="fa-solid fa-square-phone-flip"></i>
-                           <a href="tel:+926668880000">+ 92 666 888 0000</a>
-                        </li>
-                     </ul>
-                  </div>
-                  <!-- <div class="footer-media">
-                     <ul>
-                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                     </ul>
-                  </div> -->
-               </div>
-            </div>
-         </div>
-      </div>
-      <div class="copyright-area">
-         <div class="container">
-            <div class="row">
-               <div class="col-12">
-                  <div class="copyright-content">
-                     <div class="desc">
-                        <p>Copyright © 2024 All Rights Reserved.</p>
-                     </div>
-                     <div class="footer-menu">
-                        <ul>
-                           <li><a href="#">Privacy</a></li>
-                           <li><a href="#">Terms & Conditions</a></li>
-                           <li><a href="#">Support</a></li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </footer>
+  
+<?php include('footer.php'); ?>
    <!-- end: Footer Area -->
 
    <!-- start: Back To Top -->
