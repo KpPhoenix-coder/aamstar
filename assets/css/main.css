@@ -1100,7 +1100,7 @@ START: Theme Header CSS
 }
 .site-logo .logo {
   display: inline-block;
-  max-width: 140px;
+  max-width: 150px;
   width: 100%;
 }
 .site-logo .logo img {

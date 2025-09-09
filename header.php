@@ -115,7 +115,7 @@
                         </div>
                         <div class="call-text">
                            <span>Make a Call</span>
-                           <a class="link" href="mailto:+12300051168">+ 123(000) 51168</a>
+                           <a class="link" href="mailto:+918888888888">+ 91 8888888888</a>
                         </div>
                      </div>
                   </div>
@@ -193,7 +193,7 @@
                         </div>
                         <div class="call-text">
                            <span>Make a Call</span>
-                           <a class="link" href="mailto:+12300051168">+ 123(000) 51168</a>
+                           <a class="link" href="mailto:+918888888888">+ 91 8888888888</a>
                         </div>
                      </div>
                   </div>
